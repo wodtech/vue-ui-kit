@@ -11,7 +11,7 @@
     "build": "vue-cli-service build --target lib src/lib.js",
     "lint": "vue-cli-service lint"
   },
-  "main": "dist/ui-kit.umd.min.js",
+  "main": "dist/vue-ui-kit.umd.min.js",
   "files": [
     "dist/*"
   ],
@@ -38,9 +38,9 @@
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.3"
   },
-  "repository": "https://github.com/handofblood/ui-test",
-  "bugs": "https://github.com/handofblood/ui-test/issues",
-  "homepage": "https://github.com/handofblood/ui-test#readme",
+  "repository": "https://github.com/wodtech/vue-ui-kit",
+  "bugs": "https://github.com/wodtech/vue-ui-kit/issues",
+  "homepage": "https://github.com/wodtech/vue-ui-kit#readme",
   "keywords": [
     "uikit",
     "defish",
