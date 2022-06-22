@@ -1,0 +1,138 @@
+@import "./vuetify.scss";
+
+@font-face {
+  font-family: "Colfax";
+  src: url("~@/assets/fonts/Colfax-Black.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("~@/assets/fonts/Colfax-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("~@/assets/fonts/Colfax-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("~@/assets/fonts/Colfax-Medium.otf");
+  font-weight: 500;
+}
+
+html {
+  //background-color: #191b32;
+  overflow: hidden;
+}
+
+* {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+p,
+span,
+a {
+  font-family: Colfax;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(87, 134, 216, 0.068);
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  background: #3dcada46;
+}
+
+
+.blurred {
+  backdrop-filter: blur(10px);
+  background-color: rgba(#000, 0.7) !important;
+  border: 1px solid rgba(#fff, 0.2) !important;
+}
+//global styles
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+
+// v-text-field styles
+.v-text-field--outlined > .v-input__control > .v-input__slot {
+  background: var(--text-field-bg-primary);
+  &:hover {
+    background: var(--text-field-hover-bg);
+  }
+}
+// active input bg style
+.v-text-field, .v-textarea {
+  &.v-input--is-focused .v-input__slot {
+    background: var(--text-field-active-bg) !important;
+  }
+}
+// default border styling
+.v-text-field--outlined fieldset {
+  border: 2px solid var(--text-field-border-default);
+  &:hover {
+    border: 2px solid var(--text-field-border-default);
+  }
+}
+// active fieldset border style
+.v-text-field--outlined.v-input--is-focused fieldset, .v-text-field--outlined.v-input--has-state fieldset {
+  border: 2px solid var(--text-field-border-active) !important;
+}
+// error slot style
+.v-text-field.v-text-field--enclosed:not(.v-text-field--rounded) >
+.v-input__control > .v-input__slot, .v-text-field.v-text-field--enclosed .v-text-field__details {
+  padding: 0 0px;
+  color: var(--text-field-error-color);
+  text-transform: uppercase;
+}
+//text-field input colors
+.theme--dark.v-input input, .theme--dark.v-input textarea {
+  &[disabled] {
+    color: var(--text-field-font-disabled) !important;
+  }
+}
+//text-field icon margin-top
+.v-input__append-inner {
+  margin-top: 15px;
+}
+//text-field fieldset padding
+.v-text-field--rounded > .v-input__control > .v-input__slot {
+  padding: 0px 16px 0px 20px;
+}
+
+//v-text-field auto-grow styles
+.v-application--is-ltr .v-textarea.v-text-field--enclosed .v-text-field__slot textarea {
+  padding: 12px 20px !important;
+  margin-top: 0px;
+}
+// remove default right margin in vuetify
+.v-application--is-ltr .v-textarea.v-text-field--enclosed .v-text-field__slot {
+  margin-right: 0px !important;
+}
+.v-text-field.v-text-field--enclosed:not(.v-text-field--rounded) > .v-input__control > .v-input__slot,
+.v-text-field.v-text-field--enclosed .v-text-field__details {
+  border-radius: 20px;
+}
+//ui-btn
+.v-btn {
+  min-width: 0;
+}

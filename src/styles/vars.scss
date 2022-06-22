@@ -1,0 +1,50 @@
+:root {
+  // BG colors
+  --bg-primary: #06101C;
+  // Font colors
+  --font-gray: #344151;
+  // Buttons colors
+  --button-bg-primary: #7CEDDB;
+  --button-bg-secondary: rgba(124, 237, 219, 0.12);
+  --button-text-primary: #010101;
+  --button-text-secondary: #7CEDDB;
+  --button-text-transparent: #374A60;
+  --button-hover-primary: #76FFE8;
+  --button-hover-secondary: rgba(118, 255, 232, 0.12);
+  --button-clicked-primary: #4FB3A3;
+  --button-clicked-secondary: rgba(79, 179, 163, 0.12);
+  --button-disabled: rgba(16, 36, 54, 0.24);
+  // Segment colors
+  --segment-bg: #67E8D3;
+  --segment-text: #08182A;
+  --segment-border: #374A60;
+  --segment-border-bottom: #08182A;
+  --segment-active-border-bottom: #67E8D3;
+
+  // Text field colors
+  --text-field-bg-primary: rgba(32, 51, 62, 1);
+  --text-field-active-bg: rgba(16, 23, 33, 1);
+  --text-field-hover-bg: rgba(16, 23, 33, 1);
+  --text-field-active-bg: rgba(16, 23, 33, 1);
+
+  --text-field-font-normal: rgba(255, 255, 255, 0.32);
+  --text-field-font-active: rgba(223, 223, 234, 1);
+  --text-field-error-color: rgba(198, 40, 40, 1);
+  --text-field-font-disabled: rgba(68, 152, 138, 1);
+
+  --text-field-border-default: rgba(103, 232, 211, 0.1);
+  --text-field-border-active: rgba(103, 232, 211, 0.5);
+  // Badge label colors
+  --text-artifact: rgba(227, 16, 45, 1);
+  --text-legendary: rgba(248, 225, 109, 1);
+  --text-epic: rgba(219, 87, 170, 1);
+  --text-rare: rgba(138, 229, 253, 1);
+  --text-uncommon: rgba(131, 159, 183, 1);
+  --text-common: rgba(146, 152, 165, 1);
+  // CheckBox colors
+  --ui-checkbox-default: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAG1BMVEUAAACiosScpb2fn8GfpcGgosKfocCfocH///+nL5J+AAAACHRSTlMAHh8lJXFygEnJYDcAAAABYktHRAiG3pV6AAAAIklEQVQI12NwKweBFIZEBhAQZSgA0+xUoyHmqjK4gu0JBgCVCAuLcTk5bQAAAABJRU5ErkJggg==');
+  --ui-checkbox-checked: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAV1BMVEX///////////////////////8SFCoiJDgqLEAwMUVMTV5XWGhaW2pkZXRoanhyc4B5eoeBgo26u8HMzNHS09fX19vd3eDo6Or39/f6+vv9/f3+/v7///9XHayhAAAABnRSTlNISUvi4+TsCegUAAAAAWJLR0QcnARBBwAAAFFJREFUCNdjYGKVgQMWRgYWGSTAzCCDAnBxxbmEYVxJGRkxTjYeKFeIU0SUg41bAsrlY2NnZ+OVhOmVFmBj45dCGCUtKCiN3yIoF82RjCzIPACl4hKggOvzTQAAAABJRU5ErkJggg==');
+  --ui-checkbox-disabled: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAG1BMVEUAAAA8TV48TWY6SmM3TGA4SmE4SmA4SmD///9V4/JmAAAACHRSTlMAHh4fJXFygGkEE7UAAAABYktHRAiG3pV6AAAAIklEQVQI12NwKweBFIZEBhBQZSgA0+xUo5PAtCmDK9ieEACbuAutFIwpnwAAAABJRU5ErkJggg==');
+  --ui-checkbox-checked-disabled: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAVFBMVEUuLkAtLT8wMEEuLz8uLz8uLz8GEBwJEh4KEx8LFCAQFyQRGSYSGScUGigVGykXHSoXHSsYHywjJjUlKDcmKTgnKjkoKjoqLDwsLj4tLj8uLz/////kPCUBAAAABnRSTlNISUvi4+TsCegUAAAAAWJLR0QbAmDUpAAAAE1JREFUCNdjYGKVggMWRgYWKSTAzCCFAnBxxbmEYVxJKSkxTjYeKFeIU0SUg41bAsrlY2NnZ+OVhOsVYGPjRzZKUJCARVAumiMZWZB5ACi9EW+j/dS6AAAAAElFTkSuQmCC');
+  --ui-checkbox-hover: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAHlBMVEUAAAB3d5F3d5lzc5R1dZF1fJh1eJV0d5R2eJP////X1PC6AAAACXRSTlMAHh4fJSVxcoDke4ouAAAAAWJLR0QJ8dml7AAAACJJREFUCNdjCO8AgVKGQgYQUGNoANMcVKOLwLQZQxjYnhQA/oMNZjAbC8UAAAAASUVORK5CYII=');
+}
