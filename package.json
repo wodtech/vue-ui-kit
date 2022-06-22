@@ -47,5 +47,8 @@
     "vuetify",
     "vue"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT"
 }
