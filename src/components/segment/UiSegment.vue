@@ -61,6 +61,7 @@ export default {
 <style lang="scss" scoped>
 .ui-segment {
   display: inline-block;
+  color: #757794;
   &._default {
     border-radius: 70px;
     border: 1px solid var(--segment-border);
@@ -71,11 +72,17 @@ export default {
   .uikit-btn {
     &::v-deep {
       padding: 0 16px !important;
+      color: #757794 !important;
+    }
+    &.primary {
+      &::v-deep {
+        color: var(--segment-text) !important;
+      }
     }
     &._active_border {
       position: relative;
       &::v-deep {
-        color: var(--button-text-secondary);
+        color: var(--button-text-secondary) !important;
       }
       &:after {
         border-bottom: 2px solid var(--segment-active-border-bottom);
@@ -91,7 +98,7 @@ export default {
   }
   .active {
     background: var(--segment-bg);
-    color: var(--segment-text);
+    color: var(--segment-text) !important;
   }
 }
 </style>

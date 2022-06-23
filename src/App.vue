@@ -106,6 +106,15 @@
       <div class="ui-badge-examples">
         <UiBadge icon="empty" class="text-h5">Test</UiBadge>
       </div>
+      <v-icon size="24">
+        $vuetify.icons.my-guild
+      </v-icon>
+      <v-icon size="24">
+        $vuetify.icons.guild-list
+      </v-icon>
+      <v-icon size="24">
+        $vuetify.icons.guild-invites
+      </v-icon>
     </div>
   </v-app>
 </template>

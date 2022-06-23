@@ -47,6 +47,10 @@ import IconChange from "@/components/common/icons/IconChange";
 import ClearIcon from "@/components/common/icons/ui-icons/TextFieldClear";
 import IconPending from "@/components/common/icons/IconPending";
 
+import IconGuildList from "@/components/common/icons/guild/IconGuildList";
+import IconGuildInvites from "@/components/common/icons/guild/IconGuildInvites";
+import IconMyGuild from "@/components/common/icons/guild/IconGuild";
+
 Vue.use(Vuetify);
 
 Vuetify.config.silent = true;
@@ -177,6 +181,15 @@ export default new Vuetify({
       pending: {
         component: IconPending,
       },
+      'my-guild': {
+        component: IconMyGuild
+      },
+      'guild-list': {
+        component: IconGuildList
+      },
+      'guild-invites': {
+        component: IconGuildInvites
+      }
     },
   },
   theme: {
