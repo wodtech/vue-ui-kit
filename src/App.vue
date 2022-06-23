@@ -136,8 +136,8 @@ export default {
       rules: [(value) => (value || "").length <= 20 || "Max 20 characters"],
       segment: {
         options: [
-          { label: "Repair", icon: "repair" },
-          { label: "Craft", icon: "workbench" },
+          { label: "Repair", icon: "my-guild" },
+          { label: "Craft", icon: "guild-list" },
         ],
         active: "Repair",
       },
