@@ -72,7 +72,7 @@ export default {
   .uikit-btn {
     &::v-deep {
       padding: 0 16px !important;
-      color: #757794 !important;
+      color: var(--segment-text-default) !important;
     }
     &.primary {
       &::v-deep {
