@@ -14,6 +14,7 @@
     >
       <v-icon
         v-if="option.icon"
+        :color="isActiveIcon(option.label === value)"
         v-text="`$vuetify.icons.${option.icon}`"
         left
         size="17"
@@ -50,6 +51,13 @@ export default {
           ? "transparent"
           : "primary"
         : "transparent";
+    },
+    isActiveIcon(val) {
+      return val
+        ? this.isTransparent
+          ? "primary"
+          : "var(--segment-text)"
+        : "var(--segment-text-default)";
     },
     isBottomBorder(val) {
       return this.isTransparent && val ? "_active_border" : "";
