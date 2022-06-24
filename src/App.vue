@@ -107,13 +107,13 @@
         <UiBadge icon="empty" class="text-h5">Test</UiBadge>
       </div>
       <v-icon size="24">
-        $vuetify.icons.my-guild
+        $vuetify.icons.favorite
       </v-icon>
       <v-icon size="24">
-        $vuetify.icons.guild-list
+        $vuetify.icons.level
       </v-icon>
       <v-icon size="24">
-        $vuetify.icons.guild-invites
+        $vuetify.icons.players
       </v-icon>
     </div>
   </v-app>

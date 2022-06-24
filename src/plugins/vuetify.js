@@ -50,6 +50,12 @@ import IconPending from "@/components/common/icons/IconPending";
 import IconGuildList from "@/components/common/icons/guild/IconGuildList";
 import IconGuildInvites from "@/components/common/icons/guild/IconGuildInvites";
 import IconMyGuild from "@/components/common/icons/guild/IconGuild";
+import IconFavorite from "@/components/common/icons/guild/IconFavorite";
+import IconLevel from "@/components/common/icons/guild/IconLevel";
+import IconLocked from "@/components/common/icons/guild/IconLocked";
+import IconPlayers from "@/components/common/icons/guild/IconPlayers";
+import IconRank from "@/components/common/icons/guild/IconRank";
+import IconArrow from "@/components/common/icons/IconArrow";
 
 Vue.use(Vuetify);
 
@@ -189,6 +195,24 @@ export default new Vuetify({
       },
       'guild-invites': {
         component: IconGuildInvites
+      },
+      favorite: {
+        component: IconFavorite
+      },
+      level: {
+        component: IconLevel
+      },
+      locked: {
+        component: IconLocked
+      },
+      players: {
+        component: IconPlayers
+      },
+      rank: {
+        component: IconRank
+      },
+      arrow: {
+        component: IconArrow
       }
     },
   },

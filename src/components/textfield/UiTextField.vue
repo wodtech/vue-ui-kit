@@ -4,6 +4,8 @@
       <span class="label">{{ textLabel }}</span>
     </slot>
     <v-text-field
+      v-bind="$attrs"
+      v-on="$listeners"
       @input="handleInput"
       @update:error="handleChange"
       :value="value"
