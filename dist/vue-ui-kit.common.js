@@ -16822,13 +16822,13 @@ framework_Vuetify.config.silent = true;
       pending: {
         component: IconPending
       },
-      'my-guild': {
+      "my-guild": {
         component: guild_IconGuild
       },
-      'guild-list': {
+      "guild-list": {
         component: IconGuildList
       },
-      'guild-invites': {
+      "guild-invites": {
         component: IconGuildInvites
       },
       favorite: {
@@ -16881,6 +16881,10 @@ framework_Vuetify.config.silent = true;
         main_bg: "#06101C",
         rd_slot: "#21486C",
         rd_blue_light: "#85C0F0",
+        green: "#79EC77",
+        gold: "#ECBD77",
+        red: "#C73F3F",
+        red_light: "#EC7777",
         "rarity-common": "#A0A2C1",
         "rarity-uncommon": "#ffffff",
         "rarity-rare": "#41ABE1",

@@ -189,39 +189,39 @@ export default new Vuetify({
       pending: {
         component: IconPending,
       },
-      'my-guild': {
-        component: IconMyGuild
+      "my-guild": {
+        component: IconMyGuild,
       },
-      'guild-list': {
-        component: IconGuildList
+      "guild-list": {
+        component: IconGuildList,
       },
-      'guild-invites': {
-        component: IconGuildInvites
+      "guild-invites": {
+        component: IconGuildInvites,
       },
       favorite: {
-        component: IconFavorite
+        component: IconFavorite,
       },
       level: {
-        component: IconLevel
+        component: IconLevel,
       },
       locked: {
-        component: IconLocked
+        component: IconLocked,
       },
       players: {
-        component: IconPlayers
+        component: IconPlayers,
       },
       rank: {
-        component: IconRank
+        component: IconRank,
       },
       arrow: {
-        component: IconArrow
+        component: IconArrow,
       },
       accept: {
-        component: IconAccept
+        component: IconAccept,
       },
       cancel: {
-        component: IconCancel
-      }
+        component: IconCancel,
+      },
     },
   },
   theme: {
@@ -248,6 +248,10 @@ export default new Vuetify({
         main_bg: "#06101C",
         rd_slot: "#21486C",
         rd_blue_light: "#85C0F0",
+        green: "#79EC77",
+        gold: "#ECBD77",
+        red: "#C73F3F",
+        red_light: "#EC7777",
         "rarity-common": "#A0A2C1",
         "rarity-uncommon": "#ffffff",
         "rarity-rare": "#41ABE1",
