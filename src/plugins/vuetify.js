@@ -56,6 +56,8 @@ import IconLocked from "@/components/common/icons/guild/IconLocked";
 import IconPlayers from "@/components/common/icons/guild/IconPlayers";
 import IconRank from "@/components/common/icons/guild/IconRank";
 import IconArrow from "@/components/common/icons/IconArrow";
+import IconAccept from "@/components/common/icons/guild/IconAccept";
+import IconCancel from "@/components/common/icons/guild/IconCancel";
 
 Vue.use(Vuetify);
 
@@ -213,6 +215,12 @@ export default new Vuetify({
       },
       arrow: {
         component: IconArrow
+      },
+      accept: {
+        component: IconAccept
+      },
+      cancel: {
+        component: IconCancel
       }
     },
   },
