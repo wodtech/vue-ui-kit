@@ -13,7 +13,7 @@
 </template>
 
 <script>
-const variants = ["primary", "secondary", "transparent"];
+const variants = ["primary", "secondary", "cancel", "transparent"];
 const sizes = ["lg", "md"];
 export default {
   name: "UiButton",
@@ -69,6 +69,13 @@ export default {
       color: var(--button-text-secondary);
       &:hover {
         background-color: var(--button-hover-secondary) !important;
+      }
+    }
+    &.cancel {
+      background-color: var(--button-bg-cancel) !important;
+      color: var(--button-text-cancel);
+      &:hover {
+        background-color: var(--button-hover-cancel) !important;
       }
     }
     &.lg {

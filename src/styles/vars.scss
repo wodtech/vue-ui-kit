@@ -6,11 +6,17 @@
   // Buttons colors
   --button-bg-primary: #7CEDDB;
   --button-bg-secondary: rgba(124, 237, 219, 0.12);
+  --button-bg-cancel: rgba(238, 61, 60, 0.15);
+
   --button-text-primary: #010101;
   --button-text-secondary: #7CEDDB;
   --button-text-transparent: #374A60;
+  --button-text-cancel: #EE3D3C;
+
   --button-hover-primary: #76FFE8;
   --button-hover-secondary: rgba(118, 255, 232, 0.12);
+  --button-hover-cancel: rgba(238, 61, 60, 0.25);
+
   --button-clicked-primary: #4FB3A3;
   --button-clicked-secondary: rgba(79, 179, 163, 0.12);
   --button-disabled: rgba(16, 36, 54, 0.24);
