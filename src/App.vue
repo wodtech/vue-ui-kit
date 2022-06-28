@@ -106,10 +106,10 @@
       <div class="ui-badge-examples">
         <UiBadge icon="empty" class="text-h5">Test</UiBadge>
       </div>
-      <v-icon size="24">
+      <v-icon color="disabled_icon" size="24">
         $vuetify.icons.favorite
       </v-icon>
-      <v-icon size="24">
+      <v-icon class="level-icon" size="24">
         $vuetify.icons.level
       </v-icon>
       <v-icon size="24">

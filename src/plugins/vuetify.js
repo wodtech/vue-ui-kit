@@ -252,6 +252,7 @@ export default new Vuetify({
         gold: "#ECBD77",
         red: "#C73F3F",
         red_light: "#EC7777",
+        disabled_icon: "#1D344F",
         "rarity-common": "#A0A2C1",
         "rarity-uncommon": "#ffffff",
         "rarity-rare": "#41ABE1",
