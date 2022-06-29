@@ -83,12 +83,12 @@ export default {
       height: 56px;
     }
     &.md {
-      min-width: 40px;
+      min-width: 44px;
       height: 44px;
     }
     &.small {
       min-width: 40px;
-      height: 44px;
+      height: 40px;
     }
     &._disabled {
       background-color: #102436 !important;
