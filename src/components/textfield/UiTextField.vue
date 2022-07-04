@@ -23,6 +23,21 @@
           {{ message }}
         </div>
       </template>
+      <template v-slot:append>
+        <slot name="append"></slot>
+      </template>
+      <template v-slot:append-outer>
+        <slot name="append-outer"></slot>
+      </template>
+      <template v-slot:counter>
+        <slot name="counter"></slot>
+      </template>
+      <template v-slot:prepend>
+        <slot name="prepend"></slot>
+      </template>
+      <template v-slot:prepend-inner>
+        <slot name="prepend-inner"></slot>
+      </template>
     </v-text-field>
   </div>
 </template>

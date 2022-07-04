@@ -51,6 +51,20 @@
       </div>
       <div class="ui-text-field-examples">
         <UiTextField
+          text-label="Enter your text"
+        >
+          <template slot="append">
+            <ui-button
+              size="md"
+              icon
+            >
+              <v-icon>
+                $vuetify.icons.rod
+              </v-icon>
+            </ui-button>
+          </template>
+        </UiTextField>
+        <UiTextField
           v-model="inputValue"
           is-clearable
           :rules="rules"

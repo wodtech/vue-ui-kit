@@ -111,9 +111,12 @@ a {
   }
 }
 //text-field icon margin-top
-.v-input__append-inner {
-  margin-top: 15px;
+.v-text-field, .v-textarea {
+  .v-input__append-inner {
+    margin: auto;
+  }
 }
+
 //text-field fieldset padding
 .v-text-field--rounded > .v-input__control > .v-input__slot {
   padding: 0px 16px 0px 20px;
