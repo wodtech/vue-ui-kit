@@ -111,8 +111,8 @@ a {
   }
 }
 //text-field icon margin-top
-.v-text-field, .v-textarea {
-  .v-input__append-inner {
+.v-text-field {
+  .v-input__append-inner,.v-input__prepend-inner {
     margin: auto;
   }
 }
