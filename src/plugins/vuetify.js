@@ -58,6 +58,7 @@ import IconRank from "@/components/common/icons/guild/IconRank";
 import IconArrow from "@/components/common/icons/IconArrow";
 import IconAccept from "@/components/common/icons/guild/IconAccept";
 import IconCancel from "@/components/common/icons/guild/IconCancel";
+import IconMuted from "@/components/common/icons/guild/IconMuted";
 
 Vue.use(Vuetify);
 
@@ -222,6 +223,9 @@ export default new Vuetify({
       cancel: {
         component: IconCancel,
       },
+      muted: {
+        component: IconMuted
+      }
     },
   },
   theme: {

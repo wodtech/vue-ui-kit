@@ -1178,6 +1178,20 @@ $({ target: 'String', proto: true, forced: forcedStringHTMLMethod('anchor') }, {
 
 /***/ }),
 
+/***/ "18d9":
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "svg[data-v-e62264e0]{fill:currentColor}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "19aa":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3814,6 +3828,17 @@ var update = add("274d2710", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
+/***/ "500e":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_10_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_IconMuted_vue_vue_type_style_index_0_id_e62264e0_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("923b");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_10_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_IconMuted_vue_vue_type_style_index_0_id_e62264e0_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_10_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_10_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_10_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_IconMuted_vue_vue_type_style_index_0_id_e62264e0_lang_sass_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "5087":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6384,6 +6409,22 @@ module.exports = DESCRIPTORS ? function (object, key, value) {
   return object;
 };
 
+
+/***/ }),
+
+/***/ "923b":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("18d9");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("7def1758", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -16648,7 +16689,49 @@ var IconCancel_component = normalizeComponent(
 )
 
 /* harmony default export */ var IconCancel = (IconCancel_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2896de4e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/common/icons/guild/IconMuted.vue?vue&type=template&id=e62264e0&scoped=true&
+var IconMutedvue_type_template_id_e62264e0_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"width":"24","height":"24","viewBox":"0 0 24 24","fill":"none","xmlns":"http://www.w3.org/2000/svg"}},[_c('path',{attrs:{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.88235 1C2.63362 1 0 3.72331 0 7.08266V13.8952C0 16.553 1.96238 18.7368 4.47059 18.9818V20.5622C4.47059 22.6589 6.86388 23.7737 8.38252 22.3845L9.49318 21.3686L11.987 19.0047H18.1176C21.3664 19.0047 24 16.2814 24 12.922V7.08266C24 3.72331 21.3664 1 18.1176 1H5.88235ZM8.36859 6.49084C8.82805 6.01576 9.57294 6.01576 10.0324 6.49084L12.1717 8.70306L14.1876 6.61851C14.6471 6.1434 15.392 6.1434 15.8514 6.61851C16.3109 7.09359 16.3109 7.86385 15.8514 8.33893L13.8355 10.4235L15.7766 12.4307C16.2361 12.9058 16.2361 13.676 15.7766 14.1512C15.3172 14.6262 14.5723 14.6262 14.1128 14.1512L12.1717 12.1439L10.1561 14.2282C9.69664 14.7033 8.95174 14.7033 8.49231 14.2282C8.03287 13.7531 8.03287 12.9829 8.49231 12.5078L10.508 10.4235L8.36859 8.21129C7.90915 7.73621 7.90915 6.96592 8.36859 6.49084Z","fill":"#EC7777"}})])}
+var IconMutedvue_type_template_id_e62264e0_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/common/icons/guild/IconMuted.vue?vue&type=template&id=e62264e0&scoped=true&
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/common/icons/guild/IconMuted.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var IconMutedvue_type_script_lang_js_ = ({});
+// CONCATENATED MODULE: ./src/components/common/icons/guild/IconMuted.vue?vue&type=script&lang=js&
+ /* harmony default export */ var guild_IconMutedvue_type_script_lang_js_ = (IconMutedvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/components/common/icons/guild/IconMuted.vue?vue&type=style&index=0&id=e62264e0&lang=sass&scoped=true&
+var IconMutedvue_type_style_index_0_id_e62264e0_lang_sass_scoped_true_ = __webpack_require__("500e");
+
+// CONCATENATED MODULE: ./src/components/common/icons/guild/IconMuted.vue
+
+
+
+
+
+
+/* normalize component */
+
+var IconMuted_component = normalizeComponent(
+  guild_IconMutedvue_type_script_lang_js_,
+  IconMutedvue_type_template_id_e62264e0_scoped_true_render,
+  IconMutedvue_type_template_id_e62264e0_scoped_true_staticRenderFns,
+  false,
+  null,
+  "e62264e0",
+  null
+  
+)
+
+/* harmony default export */ var IconMuted = (IconMuted_component.exports);
 // CONCATENATED MODULE: ./src/plugins/vuetify.js
+
 
 
 
@@ -16863,6 +16946,9 @@ framework_Vuetify.config.silent = true;
       },
       cancel: {
         component: IconCancel
+      },
+      muted: {
+        component: IconMuted
       }
     }
   },
