@@ -15,6 +15,7 @@ Vue.config.productionTip = false;
 
 import "@/styles/layout.scss";
 import "@/styles/vars.scss";
+import "@/styles/variables.scss"
 
 // eslint-disable-next-line no-unused-vars
 export const DefishUiKit = function(Vue, options) {

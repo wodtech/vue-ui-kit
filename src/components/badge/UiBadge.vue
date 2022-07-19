@@ -30,7 +30,8 @@ export default {
 
 <style lang="scss" scoped>
 .ui-badge {
-  min-width: 150px;
+  min-width: 50px;
+  width: auto;
   border-radius: 8px;
   .v-icon {
     &::v-deep {
