@@ -14,7 +14,7 @@
 
 <script>
 const variants = ["primary", "secondary", "cancel", "transparent"];
-const sizes = ["lg", "md"];
+const sizes = ["md", "lg"];
 export default {
   name: "UiButton",
   props: {
