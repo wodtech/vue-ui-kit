@@ -1,7 +1,7 @@
 {
   "name": "@defishtech/vue-ui-kit",
   "description": "defish-styled ui kit. built on top of Vuetify",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "private": false,
   "author": {
     "name": "defishtech"
