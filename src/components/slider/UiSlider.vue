@@ -6,7 +6,7 @@
     :min="min"
     :step="step"
     :value="value"
-    thumb-label="always"
+    :thumb-label="showThumbs ? 'always' : ''"
     :thumb-color="color"
     @change="$emit('change', $event)"
     :color="color"
@@ -30,6 +30,10 @@ export default {
     value: {},
     color: {
       default: "#FBFBFC",
+    },
+    showThumbs: {
+      type: Boolean,
+      default: true
     },
     step: {
       default: 1,

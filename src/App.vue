@@ -24,7 +24,8 @@
       </div>
       <div class="ui-slider-examples">
         <UiSlider color="#FFE600" :value="slider1" />
-        <UiSlider color="green" :value="slider2" />
+        <UiSlider color="green"  :value="slider2" />
+        <UiSlider color="green" :show-thumbs="false" :value="slider2" />
         <UiTickSlider
           min="0"
           :step="10"
