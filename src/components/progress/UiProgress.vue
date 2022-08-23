@@ -68,6 +68,8 @@ export default {
         return 6;
       } else if (this.size === "lg") {
         return 8;
+      } else if (this.size === "sm") {
+        return 4;
       } else {
         return 6;
       }

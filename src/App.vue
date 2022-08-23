@@ -102,6 +102,12 @@
           fake-level
           :fillWidth="100"
         />
+        <UiProgress
+          style="width: 200px"
+          :is-stats="false"
+          size="sm"
+          :fillWidth="80"
+        />
       </div>
       <div class="ui-checkbox-examples">
         <UiCheckBox v-model="checkBoxValue1" :rarity="6" is-disabled />
