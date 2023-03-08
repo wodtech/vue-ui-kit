@@ -60,6 +60,8 @@ import IconAccept from "@/components/common/icons/guild/IconAccept";
 import IconCancel from "@/components/common/icons/guild/IconCancel";
 import IconMuted from "@/components/common/icons/guild/IconMuted";
 
+import IconTimer from "@/components/common/icons/IconTimer";
+
 Vue.use(Vuetify);
 
 Vuetify.config.silent = true;
@@ -225,6 +227,9 @@ export default new Vuetify({
       },
       muted: {
         component: IconMuted
+      },
+      timer: {
+        component: IconTimer
       }
     },
   },

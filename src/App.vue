@@ -136,6 +136,9 @@
       <v-icon size="24">
         $vuetify.icons.players
       </v-icon>
+      <v-icon size="24">
+        $vuetify.icons.timer
+      </v-icon>
     </div>
   </v-app>
 </template>
