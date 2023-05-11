@@ -248,7 +248,7 @@ export default new Vuetify({
         teal: "#67E8D3",
         purple: "#C463FF",
         orange: "#FEB11D",
-        secondary: "rgba(124, 237, 219, 0.12)",
+//         secondary: "rgba(124, 237, 219, 0.12)",
         secondary_new: "#85C0F0",
         info: "#408CFF",
         blue: "#41ABE1",
