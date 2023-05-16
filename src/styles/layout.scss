@@ -1,29 +1,5 @@
 @import "./vuetify.scss";
 
-@font-face {
-  font-family: "Colfax";
-  src: url("~@/assets/fonts/Colfax-Black.otf");
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: "Colfax";
-  src: url("~@/assets/fonts/Colfax-Regular.otf");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Colfax";
-  src: url("~@/assets/fonts/Colfax-Bold.otf");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "Colfax";
-  src: url("~@/assets/fonts/Colfax-Medium.otf");
-  font-weight: 500;
-}
-
 html {
   //background-color: #191b32;
   overflow: hidden;

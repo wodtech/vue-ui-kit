@@ -1413,47 +1413,6 @@ module.exports = function (METHOD_NAME) {
 
 /***/ }),
 
-/***/ "1de5":
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    // eslint-disable-next-line no-param-reassign
-    options = {};
-  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
-
-
-  url = url && url.__esModule ? url.default : url;
-
-  if (typeof url !== 'string') {
-    return url;
-  } // If url is already wrapped in quotes, remove them
-
-
-  if (/^['"].*['"]$/.test(url)) {
-    // eslint-disable-next-line no-param-reassign
-    url = url.slice(1, -1);
-  }
-
-  if (options.hash) {
-    // eslint-disable-next-line no-param-reassign
-    url += options.hash;
-  } // Should url be wrapped?
-  // See https://drafts.csswg.org/css-values-3/#urls
-
-
-  if (/["'() \t\n]/.test(url) || options.needQuotes) {
-    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
-  }
-
-  return url;
-};
-
-/***/ }),
-
 /***/ "1e94":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4224,13 +4183,6 @@ var update = add("22c10ff5", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
-/***/ "553b":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/Colfax-Medium.6fa537ac.otf";
-
-/***/ }),
-
 /***/ "5692":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6073,13 +6025,6 @@ module.exports = function (argument) {
 
 /***/ }),
 
-/***/ "8353":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/Colfax-Black.10e76e0b.otf";
-
-/***/ }),
-
 /***/ "83ab":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6131,13 +6076,6 @@ module.exports = function (string, tag, attribute, value) {
   return p1 + '>' + S + '</' + tag + '>';
 };
 
-
-/***/ }),
-
-/***/ "85c1":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/Colfax-Regular.5eaf6c7a.otf";
 
 /***/ }),
 
@@ -9969,13 +9907,6 @@ module.exports =
 
 /***/ }),
 
-/***/ "dab7":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fonts/Colfax-Bold.88ce8292.otf";
-
-/***/ }),
-
 /***/ "dbb4":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10428,18 +10359,9 @@ exports.f = wellKnownSymbol;
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__("24fb");
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__("1de5");
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__("8353");
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__("85c1");
-var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__("dab7");
-var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__("553b");
 exports = ___CSS_LOADER_API_IMPORT___(false);
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
-var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
-var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);
 // Module
-exports.push([module.i, ".theme--dark.v-tabs .v-tabs-bar{background-color:transparent!important}.theme--dark.theme--dark .v-select .v-select__selections,.theme--dark .v-select .v-select__selections{font-weight:500;color:#a0a2c1}.theme--dark.theme--dark .v-select .v-icon{color:#a0a2c1}.theme--dark.theme--dark .v-tabs-items{background-color:transparent}.theme--dark.theme--dark .v-slider .v-slider__track-background{background-color:rgba(160,162,193,.15)}.theme--dark .v-tabs-items{background-color:transparent}.theme--dark .v-slider .v-slider__track-background{background-color:rgba(160,162,193,.15)}.theme--dark .v-chip:before{background-color:currentColor;border-radius:inherit;bottom:0;color:inherit;content:\"\";left:0;pointer-events:none;position:absolute;right:0;top:0;transition:opacity .2s cubic-bezier(.4,0,.6,1)}.theme--dark .theme--dark.v-chip:not(.v-chip--active){background:unset}.theme--dark .v-slider .v-slider__track-fill{background-color:rgba(160,162,193,.15)}.theme--dark .v-btn.v-btn--plain:not(.v-btn--active):not(.v-btn--loading):not(:focus):not(:hover) .v-btn__content{opacity:.9}.theme--dark .v-btn.v-btn--icon:before,.theme--dark .v-btn.v-btn--text:before{opacity:.1}.theme--dark .v-btn[disabled]{color:rgba(0,0,0,.44)}.theme--dark .v-chip{background-color:transparent!important}.theme--dark .v-chip:before{opacity:.1}.theme--dark .v-chip .v-chip__content{font-weight:500}.theme--dark.v-sheet{background:#191b32}.theme--dark .v-menu__content{border:1px solid rgba(160,162,193,.15)}.theme--dark .v-tab{min-width:50px}.theme--dark .v-tooltip__content.menuable__content__active{opacity:1}.theme--dark .v-tooltip__content:before{content:\"\";display:block;width:0;height:0;position:absolute}.v-slider__tick{border-radius:100%;background-color:rgba(160,162,193,.15)}.v-slider__tick-label{font-size:11px;color:#a0a2c1;font-weight:700;transform:translateY(50%)}.ticked .v-slider__thumb-container:after{width:4px;height:4px;border-radius:100%;content:\"\";position:absolute;left:-2px;top:-2px;background:#c463ff}.v-application--is-ltr .v-slider--horizontal .v-slider__tick .v-slider__tick-label{transform:translateY(50%)}.v-application--is-ltr .v-slider--horizontal .v-slider__tick:last-child .v-slider__tick-label{transform:translate(-50%,50%)}.v-application--is-ltr .v-slider--horizontal .v-slider__tick:first-child .v-slider__tick-label{transform:translateY(50%)}.select-custom-width .v-select__selections input{display:none}.theme--dark.v-list{background:#08182a}@font-face{font-family:Colfax;src:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");font-weight:900}@font-face{font-family:Colfax;src:url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");font-weight:400}@font-face{font-family:Colfax;src:url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");font-weight:700}@font-face{font-family:Colfax;src:url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");font-weight:500}html{overflow:hidden}*{vertical-align:middle}a,h1,h2,h3,p,span{font-family:Colfax}.blurred{-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);background-color:rgba(0,0,0,.7)!important;border:1px solid hsla(0,0%,100%,.2)!important}.w-100{width:100%}.h-100{height:100%}.v-text-field--outlined>.v-input__control>.v-input__slot{background:var(--text-field-bg-primary)}.v-text-field--outlined>.v-input__control>.v-input__slot:hover{background:var(--text-field-hover-bg)}.v-text-field.v-input--is-focused .v-input__slot,.v-textarea.v-input--is-focused .v-input__slot{background:var(--text-field-active-bg)!important}.v-text-field--outlined fieldset,.v-text-field--outlined fieldset:hover{border:2px solid var(--text-field-border-default)}.v-text-field--outlined.v-input--has-state fieldset,.v-text-field--outlined.v-input--is-focused fieldset{border:2px solid var(--text-field-border-active)!important}.v-text-field.v-text-field--enclosed .v-text-field__details,.v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)>.v-input__control>.v-input__slot{padding:0 0;color:var(--text-field-error-color);text-transform:uppercase}.theme--dark.v-input input[disabled],.theme--dark.v-input textarea[disabled]{color:var(--text-field-font-disabled)!important}.v-text-field .v-input__append-inner,.v-text-field .v-input__prepend-inner{margin:auto}.v-text-field--rounded>.v-input__control>.v-input__slot{padding:0 16px 0 20px}.v-application--is-ltr .v-textarea.v-text-field--enclosed .v-text-field__slot textarea{padding:12px 20px!important;margin-top:0}.v-application--is-ltr .v-textarea.v-text-field--enclosed .v-text-field__slot{margin-right:0!important}.v-text-field.v-text-field--enclosed .v-text-field__details,.v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)>.v-input__control>.v-input__slot{border-radius:20px}.v-btn{min-width:0}", ""]);
+exports.push([module.i, ".theme--dark.v-tabs .v-tabs-bar{background-color:transparent!important}.theme--dark.theme--dark .v-select .v-select__selections,.theme--dark .v-select .v-select__selections{font-weight:500;color:#a0a2c1}.theme--dark.theme--dark .v-select .v-icon{color:#a0a2c1}.theme--dark.theme--dark .v-tabs-items{background-color:transparent}.theme--dark.theme--dark .v-slider .v-slider__track-background{background-color:rgba(160,162,193,.15)}.theme--dark .v-tabs-items{background-color:transparent}.theme--dark .v-slider .v-slider__track-background{background-color:rgba(160,162,193,.15)}.theme--dark .v-chip:before{background-color:currentColor;border-radius:inherit;bottom:0;color:inherit;content:\"\";left:0;pointer-events:none;position:absolute;right:0;top:0;transition:opacity .2s cubic-bezier(.4,0,.6,1)}.theme--dark .theme--dark.v-chip:not(.v-chip--active){background:unset}.theme--dark .v-slider .v-slider__track-fill{background-color:rgba(160,162,193,.15)}.theme--dark .v-btn.v-btn--plain:not(.v-btn--active):not(.v-btn--loading):not(:focus):not(:hover) .v-btn__content{opacity:.9}.theme--dark .v-btn.v-btn--icon:before,.theme--dark .v-btn.v-btn--text:before{opacity:.1}.theme--dark .v-btn[disabled]{color:rgba(0,0,0,.44)}.theme--dark .v-chip{background-color:transparent!important}.theme--dark .v-chip:before{opacity:.1}.theme--dark .v-chip .v-chip__content{font-weight:500}.theme--dark.v-sheet{background:#191b32}.theme--dark .v-menu__content{border:1px solid rgba(160,162,193,.15)}.theme--dark .v-tab{min-width:50px}.theme--dark .v-tooltip__content.menuable__content__active{opacity:1}.theme--dark .v-tooltip__content:before{content:\"\";display:block;width:0;height:0;position:absolute}.v-slider__tick{border-radius:100%;background-color:rgba(160,162,193,.15)}.v-slider__tick-label{font-size:11px;color:#a0a2c1;font-weight:700;transform:translateY(50%)}.ticked .v-slider__thumb-container:after{width:4px;height:4px;border-radius:100%;content:\"\";position:absolute;left:-2px;top:-2px;background:#c463ff}.v-application--is-ltr .v-slider--horizontal .v-slider__tick .v-slider__tick-label{transform:translateY(50%)}.v-application--is-ltr .v-slider--horizontal .v-slider__tick:last-child .v-slider__tick-label{transform:translate(-50%,50%)}.v-application--is-ltr .v-slider--horizontal .v-slider__tick:first-child .v-slider__tick-label{transform:translateY(50%)}.select-custom-width .v-select__selections input{display:none}.theme--dark.v-list{background:#08182a}html{overflow:hidden}*{vertical-align:middle}a,h1,h2,h3,p,span{font-family:Colfax}.blurred{-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);background-color:rgba(0,0,0,.7)!important;border:1px solid hsla(0,0%,100%,.2)!important}.w-100{width:100%}.h-100{height:100%}.v-text-field--outlined>.v-input__control>.v-input__slot{background:var(--text-field-bg-primary)}.v-text-field--outlined>.v-input__control>.v-input__slot:hover{background:var(--text-field-hover-bg)}.v-text-field.v-input--is-focused .v-input__slot,.v-textarea.v-input--is-focused .v-input__slot{background:var(--text-field-active-bg)!important}.v-text-field--outlined fieldset,.v-text-field--outlined fieldset:hover{border:2px solid var(--text-field-border-default)}.v-text-field--outlined.v-input--has-state fieldset,.v-text-field--outlined.v-input--is-focused fieldset{border:2px solid var(--text-field-border-active)!important}.v-text-field.v-text-field--enclosed .v-text-field__details,.v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)>.v-input__control>.v-input__slot{padding:0 0;color:var(--text-field-error-color);text-transform:uppercase}.theme--dark.v-input input[disabled],.theme--dark.v-input textarea[disabled]{color:var(--text-field-font-disabled)!important}.v-text-field .v-input__append-inner,.v-text-field .v-input__prepend-inner{margin:auto}.v-text-field--rounded>.v-input__control>.v-input__slot{padding:0 16px 0 20px}.v-application--is-ltr .v-textarea.v-text-field--enclosed .v-text-field__slot textarea{padding:12px 20px!important;margin-top:0}.v-application--is-ltr .v-textarea.v-text-field--enclosed .v-text-field__slot{margin-right:0!important}.v-text-field.v-text-field--enclosed .v-text-field__details,.v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)>.v-input__control>.v-input__slot{border-radius:20px}.v-btn{min-width:0}", ""]);
 // Exports
 module.exports = exports;
 
@@ -17075,7 +16997,7 @@ framework_Vuetify.config.silent = true;
         teal: "#67E8D3",
         purple: "#C463FF",
         orange: "#FEB11D",
-        secondary: "rgba(124, 237, 219, 0.12)",
+        secondary: "#7CEDDB1E",
         secondary_new: "#85C0F0",
         info: "#408CFF",
         blue: "#41ABE1",
