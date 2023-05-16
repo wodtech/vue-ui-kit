@@ -16997,7 +16997,7 @@ framework_Vuetify.config.silent = true;
         teal: "#67E8D3",
         purple: "#C463FF",
         orange: "#FEB11D",
-        secondary: "#7CEDDB1E",
+        secondary: "#545d5d",
         secondary_new: "#85C0F0",
         info: "#408CFF",
         blue: "#41ABE1",
